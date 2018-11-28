@@ -2,12 +2,47 @@
   display: flex;
   flex-wrap: wrap;
   width: 300px;
+  padding: 0px;
   margin: auto;
+  border: 4px solid black;
   
 }
 
 .cell {
   width: 92px;
-  background-color: grey;
+  height: 92px;
+  list-style: none;
+  background-image: url("./hack_reactor_logo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 4px solid black;
+}
+
+.cell:hover {
+  background-color: white;
+  background-image: url("./app_academy_logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  /* cursor: url("./ronil.jpeg"); */
+}
+
+.daddy {
+  background-image: url("./daddy_ronil.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 92px;
+  height: 92px;
+  list-style: none;
+  border: 4px solid black;
+}
+
+.ryan {
+  background-image: url("./ryan.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 92px;
+  height: 92px;
+  list-style: none;
   border: 4px solid black;
 }
